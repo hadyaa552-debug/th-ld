@@ -6,8 +6,8 @@ import Link from "next/link"
 import { Phone } from "lucide-react"
 
 const menuItems = [
-  { name: "Kukun", id: "kukun" },
   { name: "Armonia", id: "armonia" },
+  { name: "Kukun", id: "kukun" },
   { name: "Il Bayou", id: "ilbayou" },
   { name: "عن TLD", id: "about" },
   { name: "تواصل معنا", id: "contact" },

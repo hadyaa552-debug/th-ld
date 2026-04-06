@@ -14,8 +14,8 @@ export default function Home() {
     <main className="min-h-screen">
       <Header />
       <Hero />
-      <ProjectKukun />
       <ProjectArmonia />
+      <ProjectKukun />
       <ProjectIlBayou />
 
       <section id="contact" className="py-20 lg:py-32 bg-muted/30">
@@ -33,8 +33,8 @@ export default function Home() {
               </div>
               <div className="space-y-3">
                 {[
-                  { name: "Kukun", location: "مدينة المستقبل – القاهرة الجديدة" },
                   { name: "Armonia", location: "R7 – العاصمة الإدارية الجديدة" },
+                  { name: "Kukun", location: "مدينة المستقبل – القاهرة الجديدة" },
                   { name: "Il Bayou", location: "سهل حشيش – الغردقة" },
                 ].map((p, i) => (
                   <div key={i} className="flex items-center gap-3 py-3 border-b border-border">
