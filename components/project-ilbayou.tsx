@@ -1,7 +1,7 @@
 "use client"
 
 export default function ProjectIlBayou() {
-  const phoneNumber = "+201119770408"
+  const phoneNumber = "+201004791004"
   const projectName = "Il Bayou"
   const waLink = `https://wa.me/${phoneNumber.replace(/[^0-9]/g, "")}?text=${encodeURIComponent(`مرحباً، أنا مهتم بمشروع ${projectName} من TLD وأريد معرفة المزيد من التفاصيل`)}`
 

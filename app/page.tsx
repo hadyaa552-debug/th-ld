@@ -29,7 +29,7 @@ export default function Home() {
             <div className="text-right space-y-6">
               <div>
                 <p className="text-muted-foreground text-sm mb-1">هاتف</p>
-                <a href="tel:+201119770408" className="text-primary text-2xl font-bold hover:underline">01119770408</a>
+                <a href="tel:+201004791004" className="text-primary text-2xl font-bold hover:underline">01004791004</a>
               </div>
               <div className="space-y-3">
                 {[

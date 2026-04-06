@@ -1,7 +1,7 @@
 "use client"
 
 export default function ProjectArmonia() {
-  const phoneNumber = "+201119770408"
+  const phoneNumber = "+201004791004"
   const projectName = "Armonia"
   const waLink = `https://wa.me/${phoneNumber.replace(/[^0-9]/g, "")}?text=${encodeURIComponent(`مرحباً، أنا مهتم بمشروع ${projectName} من TLD وأريد معرفة المزيد من التفاصيل`)}`
 

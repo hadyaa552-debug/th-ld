@@ -1,5 +1,5 @@
 export default function MobileBottomBar() {
-  const phoneNumber = "+201119770408"
+  const phoneNumber = "+201004791004"
   const message = encodeURIComponent("مرحباً، أنا مهتم بمشاريع TLD وأريد الحصول على المزيد من المعلومات.")
   return (
     <div className="fixed bottom-0 left-0 right-0 z-40 lg:hidden bg-background border-t border-border shadow-lg">
