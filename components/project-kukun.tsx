@@ -1,7 +1,7 @@
 "use client"
 
 export default function ProjectKukun() {
-  const phoneNumber = "+201004791004"
+  const phoneNumber = "+201005166037"
   const projectName = "Kukun"
   const waLink = `https://wa.me/${phoneNumber.replace(/[^0-9]/g, "")}?text=${encodeURIComponent(`مرحباً، أنا مهتم بمشروع ${projectName} من TLD وأريد معرفة المزيد من التفاصيل`)}`
 
