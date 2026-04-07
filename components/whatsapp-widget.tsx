@@ -1,5 +1,5 @@
 export default function WhatsAppWidget() {
-  const phoneNumber = "+201004791004"
+  const phoneNumber = "+201005166037"
   const message = encodeURIComponent("مرحباً، أنا مهتم بمشاريع TLD وأريد الحصول على المزيد من المعلومات.")
   return (
     <a href={`https://wa.me/${phoneNumber.replace(/[^0-9]/g, "")}?text=${message}`}
