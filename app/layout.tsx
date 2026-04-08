@@ -17,6 +17,21 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="ar" dir="rtl" suppressHydrationWarning>
       <head>
+        {/* Global Site Tag (gtag.js) - Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-FSMJ9RP0CJ"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-FSMJ9RP0CJ');
+          `}
+        </Script>
+
+        {/* Google Tag Manager - GTM */}
         <Script id="gtm-head" strategy="afterInteractive">{`
           (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
           new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -26,6 +41,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         `}</Script>
       </head>
       <body className={cairo.className}>
+        {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-KSG948FH"
@@ -34,6 +50,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             style={{ display: "none", visibility: "hidden" }}
           />
         </noscript>
+        
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           {children}
           <Toaster />
